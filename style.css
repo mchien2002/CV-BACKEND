@@ -127,3 +127,34 @@
         border-radius: 50%;
         left: -37px;
     }
+    .skill-list {
+        list-style-type: none;
+        padding-left: 0;
+      }
+      
+      .skill-list li {
+        margin-bottom: 10px;
+      }
+      
+      
+      .skill-progress {
+        margin-top: 5px;
+        background-color: #fff;
+        height: 10px;
+        position: relative;
+      }
+      
+      .skill-progress-bar {
+        /* margin-top: 5px; */
+        background-color: #959197b1;
+        height: 100%;
+        float: right;
+      }
+      
+      .skill-percentage {
+        position: absolute;
+        top: -20px;
+        right: 0;
+        color: #959197b1;
+      }
+      
